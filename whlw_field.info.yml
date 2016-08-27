@@ -1,0 +1,5 @@
+name: WHLW field
+type: module
+description: Wigth, Height, Length and Weigth field
+core: 8.x
+package: Field types

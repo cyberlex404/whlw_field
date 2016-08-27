@@ -1,0 +1,14 @@
+{
+  "name": "drupal/whlw_field",
+  "type": "drupal-module",
+  "description": "Wigth, Height, Length and Weigth field",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/whlw_field",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/whlw_field",
+    "source": "http://cgit.drupalcode.org/whlw_field"
+  },
+  "require": { }
+}

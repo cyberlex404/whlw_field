@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains whlw_field.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function whlw_field_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the whlw_field module.
+    case 'help.page.whlw_field':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Wigth, Height, Length and Weigth field') . '</p>';
+      return $output;
+
+    default:
+  }
+}
